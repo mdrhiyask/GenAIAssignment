@@ -1,0 +1,33 @@
+#Get student mark as input 
+try:
+
+    mark = int(input("Enter your mark (0-100):"))
+
+    if mark < 0 or mark > 100:
+        raise ValueError("Mark should be between 0 and 100")
+
+except ValueError as e:
+    print("Error:",e)
+else:
+    #Grade calculations
+    if mark >= 90:
+        grade="A"
+    elif mark >= 80 :
+        grade ="B"
+    elif mark >= 70 :
+        grade ="C" 
+    elif mark >= 60 :
+        grade ="D"
+    else:
+        grade ="E"
+
+    if(mark > 0 and mark <= 100):
+            print(f"Mark : {mark} -> Grade : {grade} ")
+    
+finally:
+        #Result output 
+       
+        #Mark: 85 -> Grade: B
+        print("program execution completed.")
+
+
