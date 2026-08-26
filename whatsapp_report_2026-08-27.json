@@ -1,0 +1,12 @@
+[
+  {
+    "name": "rhiyas",
+    "phone": "8015189176",
+    "message": "test",
+    "status": "failed",
+    "sent_at": "",
+    "last_3_messages": [],
+    "screenshot": "",
+    "error": "Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"div.message-out\").last to be visible\n"
+  }
+]

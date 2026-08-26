@@ -68,13 +68,15 @@ pyautogui.press('down')
 pyautogui.hotkey('ctrl', 'v', interval=0.1)
 time.sleep(3)
 
+'''
 filename=f"daily_report_{datetime.now().strftime('%Y-%m-%D')}.xlsx"
 pyautogui.hotkey('ctrl','shift','s')
 time.sleep(3)
+'''
 
-'''
-file_path=r"C:\Users\UNAIS\Desktop\Tamimi_XPO\report.xlsx"
-pyautogui.hotkey('ctrl', 'a')
-pyautogui.write(file_path, interval=0.01)
+
+file_path=r"C:\\Users\\UNAIS\\Desktop\\Tamimi_XPO\\report.xlsx"
+#pyautogui.hotkey('ctrl', 'a')
+pyautogui.typewrite(file_path, interval=0.01)
 pyautogui.press("enter")
-'''
+
